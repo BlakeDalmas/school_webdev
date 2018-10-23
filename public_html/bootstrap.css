@@ -1,0 +1,17 @@
+.container {
+	min-width: 2000px;
+	padding-left: 25px;
+	padding-top: 10px;
+	background-color: #ffffe6;
+	}
+
+.jumbotron{
+	color: white;
+}	
+body {
+	color: black;
+}
+
+.btn {
+	margin-bottom: 5px ;
+}
