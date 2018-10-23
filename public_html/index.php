@@ -8,48 +8,18 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/solar/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="bootstrap.css">
-
     </head>
+    
     <body>
     <header>
 
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="index.html"><img src="img/new_logo.png" alt="H2O Empire"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <?php include '../resources/navigation.php'; ?>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="store.html">Store</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">Contact Us</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Login</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="login.html">Login</a>
-                  <a class="dropdown-item" href="signup.html">Signup</a>
-                </div>
-              </li>
-            </ul>
-
-          </div>
-        </nav>
     </header>
         <div class="jumbotron container-fluid">
 	        <h1 class="display-2">Welcome to H20 Empire!</h1>
 	        <p class="lead">This is a website where infomation about Dihydrogen Monoxide is stored and more!</p>
-	        <a class="btn btn-primary btn-lg" href="store.html">Store</a>
+	        <a class="btn btn-primary btn-lg" href="store.php">Store</a>
         </div>
 
 		<blockquote class="blockquote text-light" style="margin-left: 2.5%;">
@@ -271,9 +241,7 @@
             </div>
 		</div>
 
-        <footer class="bg-light text-dark" style="position: relative; bottom: 0px; left: 0px; right: 0px; padding: 5px;">
-            &nbsp; &copy; H2O Empire; Blake Dalmas &#38; Tanner Alderson 2018
-        </footer>
+        <?php include '../resources/footer.php'; ?>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

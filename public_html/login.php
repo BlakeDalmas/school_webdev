@@ -12,36 +12,7 @@
     </head>
     <body>
         <header>        
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a href="index.html"><img src="img/new_logo.png" alt="H2O Empire"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="store.html">Store</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Contact Us</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Login</a>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="login.html">Login</a>
-                              <a class="dropdown-item" href="signup.html">Signup</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <?php include '../resources/navigation.php'; ?>
         </header>
 
         <div class="card center w-50 bg-light text-dark" style="margin: auto; margin-bottom: 9%; margin-top: 4%;">
@@ -74,9 +45,7 @@
             </div>
         </div>
 
-        <footer class="bg-light text-dark" style="position: fixed; bottom: 0px; left: 0px; right: 0px; padding: 5px;">
-            &nbsp; &copy; H2O Empire; Blake Dalmas &#38; Tanner Alderson 2018
-        </footer>
+        <?php include '../resources/footer.php'; ?>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
