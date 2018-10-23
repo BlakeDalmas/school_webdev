@@ -136,11 +136,11 @@
             	<div id="carouselExampleControls" class="carousel slide col-md-10 col-lg-6" style="margin: auto;" data-ride="carousel">
                 	<div class="carousel-inner">
                   		<div class="carousel-item active">
-                    		<img class="d-block w-100" src="img/source_1.jpg" alt="Backyard after it rains.">
+                    		<img class="d-block w-100" src="img/source_1.JPG" alt="Backyard after it rains.">
                   		</div>
 
                   		<div class="carousel-item">
-                    		<img class="d-block w-100" src="img/source_2.jpg" alt="Water dropletts from leaves after it rains.">
+                    		<img class="d-block w-100" src="img/source_2.JPG" alt="Water dropletts from leaves after it rains.">
                   		</div>
                 	</div>
 
@@ -220,11 +220,11 @@
             	<div id="carouselExampleControls1" class="carousel slide col-md-10 col-lg-6" style="margin: auto;" data-ride="carousel">
                 	<div class="carousel-inner">
                   		<div class="carousel-item active">
-                    		<img class="d-block w-100" src="img/uses_1.jpg" alt="Washed transport vehicle.">
+                    		<img class="d-block w-100" src="img/uses_1.JPG" alt="Washed transport vehicle.">
                   		</div>
 
                   		<div class="carousel-item">
-                    		<img class="d-block w-100" src="img/uses_2.jpg" alt="Making grass greener.">
+                    		<img class="d-block w-100" src="img/uses_2.JPG" alt="Making grass greener.">
                   		</div>
                 	</div>
 
