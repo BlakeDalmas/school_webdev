@@ -14,7 +14,11 @@
             <?
                 for ($x = 0; $x <= 50; $x++) {
             ?>
-                <circle cx=$x cy="50" r="40" stroke="black" stroke-width="4" fill="blue" />
+                <circle cx=
+                <?
+                    echo $x;
+                ?>
+                cy="50" r="40" stroke="black" stroke-width="4" fill="blue" />
             <?
                 }
             ?>
