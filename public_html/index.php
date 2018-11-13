@@ -17,7 +17,7 @@
 
     </header>
         <div class="jumbotron container-fluid">
-	        <h1 class="display-2">Welcome to H20 Empire!</h1>
+	        <h1 class="display-2">Welcome to H20 test  TERTHU 42UITJO Empire!</h1>
 	        <p class="lead">This website stores infomation about Dihydrogen Monoxide and more!</p>
 	        <a class="btn btn-primary btn-lg" href="store.php">Store</a>
         </div>
