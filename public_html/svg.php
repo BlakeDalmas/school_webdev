@@ -15,7 +15,7 @@
                 for ($x = 0; $x <= 50; $x++) {
                     printf($x);
             ?>
-                <circle cx="<?php echo $x;?>" cy="50" r="40" stroke="black" stroke-width="4" fill="blue"/>
+                <circle cx="<?php echo htmlspecialchars($x); ?>" cy="50" r="40" stroke="black" stroke-width="4" fill="blue"/>
             <?
                 }
             ?>
